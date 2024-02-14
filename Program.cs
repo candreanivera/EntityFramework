@@ -1,10 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MySql.EntityFrameworkCore.Extensions;
 using primerproyecto;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<TareasContext>(p => p.UseInMemoryDatabase("TareasDB"));
+//Using this to create a DB in memory
+//builder.Services.AddDbContext<TareasContext>(p => p.UseInMemoryDatabase("TareasDB"));
+
+//Configuration to connect with mysql
+builder.Services.AddMySQLServer<TareasContext>(builder.Configuration.GetConnectionString("cnTareas"));
 
 var app = builder.Build();
 

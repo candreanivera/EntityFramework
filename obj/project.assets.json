@@ -2486,11 +2486,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project_EntityFramework\\Project_EntityFramework.csproj",
+      "projectUniqueName": "C:\\EntityFramework\\Project_EntityFramework.csproj",
       "projectName": "Project_EntityFramework",
-      "projectPath": "C:\\Project_EntityFramework\\Project_EntityFramework.csproj",
+      "projectPath": "C:\\EntityFramework\\Project_EntityFramework.csproj",
       "packagesPath": "C:\\Users\\cris\\.nuget\\packages\\",
-      "outputPath": "C:\\Project_EntityFramework\\obj\\",
+      "outputPath": "C:\\EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cris\\AppData\\Roaming\\NuGet\\NuGet.Config",
